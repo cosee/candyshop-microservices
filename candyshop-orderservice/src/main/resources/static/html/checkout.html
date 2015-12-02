@@ -1,0 +1,24 @@
+<h1>Shopping cart</h1>
+
+<br/>
+
+<div ng-show="message != undefined" class="alert alert-success">{{message}}</div>
+<a href="http://localhost:8085/" class="btn btn-default" style="float: right;" ng-show="submitted">Back to shop</a>
+
+<div ng-show="error != undefined" class="alert alert-danger">{{error}}</div>
+<div ng-hide="submitted">
+    How many {{candy.name}} do you want to order?
+
+    <table class="table table-bordered" style="width: 200px; margin-top: 20px;">
+        <tr>
+            <td>Amount:</td>
+            <td><input type="text" ng-model="amount"></td>
+        </tr>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" ng-model="username"></td>
+        </tr>
+    </table>
+
+    <a href="" ng-click="order()" class="btn btn-success">Order</a>
+</div>

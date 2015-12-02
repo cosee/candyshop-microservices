@@ -1,0 +1,12 @@
+INSERT INTO CANDY(ID, NAME, PRICE, STOCK_AMOUNT, DESCRIPTION, VERSION) VALUES (1, 'Twix', 60, 10, 'TWIX® Caramel Cookie Bar was first introduced in the United States in 1979. With crunchy cookie, smooth caramel, and creamy chocolate to savor twice each time, TWIX® allows you to make whatever you’re doing more fun. So grab a TWIX® and pause like you mean it.', 0);
+INSERT INTO CANDY(ID, NAME, PRICE, STOCK_AMOUNT, DESCRIPTION, VERSION) VALUES (2, 'Mars', 50, 10, 'The original chocolate bar created by Forrest Mars in 1932. A delicious fusion of chocolate, caramel and nougat has been rewarding and restoring people for generations. Mars - Work, Rest and Play your part ', 0);
+INSERT INTO CANDY(ID, NAME, PRICE, STOCK_AMOUNT, DESCRIPTION, VERSION) VALUES (3, 'Snickers', 50, 10, 'The world''s best-selling candy bar. Crammed with peanuts, caramel and nougat then coated with milk chocolate, SNICKERS® quickly became one of the planet''s favorite treats after its introduction in 1930.', 0);
+INSERT INTO CANDY(ID, NAME, PRICE, STOCK_AMOUNT, DESCRIPTION, VERSION) VALUES (4, 'M&M''S', 40, 10, 'M&M''S® have been one of the most famous candy treats in the world since 1941. The snack-sized pieces of chocolate in a colorful candy shell are instantly recognizable all over the globe. M&M''S® are available in Milk Chocolate, Peanut, Dark Chocolate, Dark Chocolate Peanut, Almond, Peanut Butter, Pretzel and Coconut.', 0);
+INSERT INTO CANDY(ID, NAME, PRICE, STOCK_AMOUNT, DESCRIPTION, VERSION) VALUES (5, 'Milky Way', 100, 10, 'Created in 1923 and designed to capture the taste of malted milk shakes, MILKY WAY® was named after a famed malted milk drink of the day, not the Milky Way galaxy. MILKY WAY® Bars are made of chocolate malt flavored nougat and caramel covered with milk chocolate. MILKY WAY® MIDNIGHT Bars are vanilla flavored nougat, caramel and dark chocolate. MILKY WAY® Brand Simply Caramel Bars are bursting with nothing but caramel, coated in irresistible MILKY WAY® Brand chocolate.', 0);
+
+
+INSERT INTO CANDY_CHANGE_EVENT(ID, CANDY_ID, TYPE) VALUES (1, 1, 'CREATED');
+INSERT INTO CANDY_CHANGE_EVENT(ID, CANDY_ID, TYPE) VALUES (2, 2, 'CREATED');
+INSERT INTO CANDY_CHANGE_EVENT(ID, CANDY_ID, TYPE) VALUES (3, 3, 'CREATED');
+INSERT INTO CANDY_CHANGE_EVENT(ID, CANDY_ID, TYPE) VALUES (4, 4, 'CREATED');
+INSERT INTO CANDY_CHANGE_EVENT(ID, CANDY_ID, TYPE) VALUES (5, 5, 'CREATED');
